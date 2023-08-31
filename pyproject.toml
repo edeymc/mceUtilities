@@ -11,4 +11,11 @@ requires = [
 name = "mceUtilities"
 version = "0.1.0"
 description = "a small collection of utility funcs, consts and snippets I use more than once"
+packages = [
+	{ include = "cache" },
+	{ include = "snc" },
+	{ include = "swimrankings" },
+	{ include = "utils" },
+	{ include = "wps" }
+]
 
