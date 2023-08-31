@@ -1,11 +1,9 @@
 [build-system]
 requires = [
-	"diskcache",
-	"httpx",
-	"numpy",
-	"pandas",
-	"sqlite3",
-	"time"
+	"diskcachei>=5.6.3",
+	"httpx>=0.24.1",
+	"numpy>=1.24.4",
+	"pandas>=2.1.0"
 ]
 
 [tools.setuptools]
