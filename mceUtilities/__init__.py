@@ -3,7 +3,7 @@ import numpy as np
 import httpx
 from time import sleep
 
-now = lambda pd.to_datetime('now',utc=True).value/1e9
+now = lambda: pd.to_datetime('now',utc=True).value/1e9
 
 def fetch(URL,auth=(),last=[0],delay=0.5,cache=None,expires=10):
     '''optionally cache and/or rate limit get requests'''
