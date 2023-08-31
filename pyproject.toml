@@ -1,3 +1,12 @@
+requires = [
+	"diskcache",
+	"httpx",
+	"numpy",
+	"pandas",
+	"sqlite3",
+	"time"
+]
+
 [project]
 name = "mceUtilities"
 version = "0.1.0"
