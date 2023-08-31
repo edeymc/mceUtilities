@@ -6,11 +6,6 @@ requires = [
 	"sqlite3",
 	"time"
 ]
-
-[project]
-name = "mceUtilities"
-version = "0.1.0"
-description = "a small collection of utility funcs, consts and snippets I use more than once"
 packages = [
 	{ include = "cache" },
 	{ include = "snc" },
@@ -18,4 +13,9 @@ packages = [
 	{ include = "utils" },
 	{ include = "wps" }
 ]
+
+[project]
+name = "mceUtilities"
+version = "0.1.0"
+description = "a small collection of utility funcs, consts and snippets I use more than once"
 
