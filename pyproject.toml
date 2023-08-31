@@ -7,14 +7,9 @@ requires = [
 	"setuptools>=68.1.2"
 ]
 
-[tools.setuptools]
-packages = [
-	{ include = "cache" },
-	{ include = "snc" },
-	{ include = "swimrankings" },
-	{ include = "utils" },
-	{ include = "wps" }
-]
+[tools.setuptools.packages.find]
+where  = ["."]
+namespaces = false
 
 [project]
 name = "mceUtilities"
