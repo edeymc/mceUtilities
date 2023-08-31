@@ -8,7 +8,7 @@ requires = [
 	"time"
 ]
 
-[tool.poetry]
+[tools.setuptools]
 packages = [
 	{ include = "cache" },
 	{ include = "snc" },
